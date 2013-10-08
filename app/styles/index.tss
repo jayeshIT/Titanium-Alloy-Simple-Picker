@@ -1,0 +1,48 @@
+".container": {
+	backgroundColor:"white"
+},
+
+".text1[platform=ios]":
+{
+	top : 10,
+	left : 20,
+	right :20,	
+	height :35,
+	hintText:"Select Year:",
+	font :
+	{
+		fontSize : 15
+	},
+	color :"black",
+	autocorrect:false,
+	paddingLeft:"5",
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES,
+	autocorrect:false,	
+	borderColor:"gray",
+    borderRadius : 5,
+	borderWidth: 1.5,
+	backgroundColor : "white"
+},
+
+".text1[platform=android]":
+{
+	top : 10,
+	left : 20,
+	right :20,	
+	height :60,
+	editable : false,
+	hintText:"Select Year:",
+	font :
+	{
+		fontSize : 20
+	},
+	color :"black",
+	autocorrect:false,
+	paddingLeft:"5",
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_SENTENCES,
+	autocorrect:false,	
+	borderColor:"gray",
+    borderRadius : 5,
+	borderWidth: 1.5,
+	backgroundColor : "white"
+},

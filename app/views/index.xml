@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container">
+		<TextField class="text1" id="text1" custid="2" selectionIndicator="true"/>
+	</Window>
+</Alloy>
